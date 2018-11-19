@@ -1,0 +1,45 @@
+body{
+    margin:0;
+}
+#player{
+    width:10%;
+    height:10%;
+    z-index: 2000;
+    position: absolute;
+    overflow: hidden;
+    top:50%;
+    left:50%;
+}
+#gamewindow {
+    height:100%;
+    position: relative;
+    
+}
+
+
+#html {
+    width:100%;
+    height:100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#body {
+    height:100%;
+}
+.tile{
+    margin:0;
+    
+    z-index: 1000;
+}
+#playerimg {
+    position: absolute;
+    width:440%;
+    height:440%;
+    left:0%;
+}
+button{
+    position: absolute;
+    bottom:0px;
+    right:0;
+}

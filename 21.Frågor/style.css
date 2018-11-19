@@ -1,0 +1,191 @@
+html{
+    height:100%;
+}
+body{
+    height: 100%;
+    margin:0;
+    background-image: url(img/circusbakgrundsbild.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed, fixed;
+}
+
+
+/*menu*/
+header {
+    height:52px;
+    width:100%;
+}
+.menu {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 23px;
+    height:40px;
+    width:calc(16.6666% - 2px);
+    float:left;
+    background-color: red;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border:solid rgba( 0, 0, 0, 0.2 ) 1px;
+}
+
+/*Själva Splet*/
+#gamediv {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top:80px;
+    display:block;
+    background-color: black;
+    width:70%;
+    border-radius: 5px;
+    border:solid 2px white;
+}
+
+#game{
+    height:100%;
+    width:100%;
+    border:none;
+}
+#CommentsShop {
+    
+    margin-top: 20px;
+    background-color: white;
+    width: 90%;
+    height:45em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top:300px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+
+#shopDiv{
+    width:50%;
+    height:100%;
+    background-color: rgba(50, 50, 50, 0.6);
+    float: right;
+}
+/*kommentar fältet*/
+#commentsDiv {
+    width:50%;
+    height:100%;
+    background-color: rgba(50, 50, 50, 0.6);
+    float: left;
+}
+h1{
+    margin:0;
+}
+#commentsH1 {
+    border-radius: 5px;
+    text-align: center;
+    margin:0;
+    width:100%;
+    height:7%;
+    background-color: aqua;
+}
+
+#writeacomment {
+    width:100%;
+    display: grid;
+    background-color: aquamarine;
+    grid-template: "profic writecom" 1fr
+                /  4em 1fr;
+     border-radius: 5px;
+}
+
+#yourprofilepic {
+    height:90%;
+    width:3em;
+    margin-left:0.7em;
+    padding-top:0.5em
+}
+#yourwrite{
+    grid-area: writecom;
+    width:100%;
+}
+
+.fa-user {
+    grid-area:profic;
+    font-size: 3em;
+    
+}
+
+
+#yourinput {
+    width:90%;
+    height:30px;
+    border:none;
+    margin-top:10px;
+    padding-left:10px;
+    font-family: 'Niramit', sans-serif;
+}
+
+
+.thecomment {
+    padding-left: 10px;
+    width: 90%;
+    grid-area: thecom;
+    background-color: white;
+}
+
+.othercomment {
+    width:100%;
+    background-color: aquamarine;
+    display:grid;
+    grid-template: ". profic thecom" 1fr
+                / 11px 4em 1fr;
+    font-family: 'Niramit', sans-serif;
+     border-radius: 5px;
+}
+
+#ShopH1 {
+    background-color: pink;
+    border-radius: 5px;
+    text-align: center;
+    margin:0;
+    width:100%;
+    height:7%;
+}
+
+#shopbackground {
+    height:93%;
+    width: 100%;
+    background-color: white;
+}
+
+.product {
+    width:40%;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px 1px #888888;
+}
+
+.product:nth-child(odd){
+    float:left;
+    margin-left: 5%;
+}
+.product:nth-child(even){
+    float: right;
+    margin-right: 5%;
+}
+.productpic {
+    width: 100%;
+}
+
+.producttext {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.producttext > p{
+    margin:0;
+}
+
+#fullscreen {
+    position: absolute;
+    right:5%;
+    margin-bottom: 20px;
+}
